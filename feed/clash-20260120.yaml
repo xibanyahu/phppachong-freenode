@@ -17,29 +17,44 @@ dns:
     - 'tls://dns.google:853'
 proxies:
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
     name: '每天更新免费节点：clashfreenode.com'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.186
-    type: "ss"
+    network: ws
+    port: 443
+    server: 68.64.176.135
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
     name: 'tg频道：@clashfreenode'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.186
-    type: "ss"
+    network: ws
+    port: 443
+    server: 68.64.176.135
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '更新于：2026-01-20 03:32:19'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.186
-    type: "ss"
+    name: '更新于：2026-01-20 15:35:23'
+    network: ws
+    port: 443
+    server: 68.64.176.135
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
   -
     name: '🇺🇸 美国 01'
     type: "trojan"
@@ -51,105 +66,17 @@ proxies:
     ws-opts:
       path: 🔒
   -
-    client-fingerprint: chrome
+    country: '🇭🇰 HK'
     name: '🇭🇰 香港 01'
-    network: ws
-    port: 2096
-    server: v1.dabache.top
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
-  -
-    client-fingerprint: chrome
-    name: '🇭🇰 香港 02'
-    network: ws
-    port: 2096
-    server: 172.64.229.220
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
-  -
-    name: '🇭🇰 香港 03'
-    network: ws
-    port: 443
-    server: staticdelivery.nexusmods.com
-    servername: kb.as129394.me
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-    ws-opts:
-      headers: { Host: kb.as129394.me }
-      path: '/?ed=2560'
-  -
-    name: '🇭🇰 香港 04'
-    network: ws
-    port: 8443
-    server: vip3.kaixincloud.top
-    servername: sni.meibidi.pp.ua
-    skip-cert-verify: false
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
-  -
-    name: '🇭🇰 香港 05'
     password: BxceQaOe
     port: 443
-    server: 58.152.53.219
+    server: 58.152.46.246
     skip-cert-verify: true
-    sni: 58.152.53.219
     tls: true
     type: "trojan"
-  -
-    name: '🇭🇰 香港 06'
-    network: ws
-    port: 8443
-    server: 104.17.102.95
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
-  -
-    cipher: "chacha20-ietf"
-    country: '🇭🇰 HK'
-    name: '🇭🇰 香港 07'
-    password: asd123456
-    port: 8388
-    server: 103.149.182.105
-    type: "ss"
-  -
-    client-fingerprint: chrome
-    name: '🇭🇰 香港 08'
-    network: ws
-    port: 2096
-    server: vip3.kaixincloud.top
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
     udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
   -
-    name: '🇭🇰 香港 09'
+    name: '🇭🇰 香港 02'
     network: ws
     port: 443
     server: store.ubi.com
@@ -162,10 +89,223 @@ proxies:
       headers: { Host: kb.as129394.me }
       path: '/?ed=2560'
   -
+    name: '🇭🇰 香港 03'
+    network: ws
+    port: 443
+    server: v1.dabache.top
+    servername: kb.as129394.me
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    ws-opts:
+      headers: { Host: kb.as129394.me }
+      path: '/?ed=2560'
+  -
+    client-fingerprint: chrome
+    delay: 532
+    encryption: none
+    name: '🇭🇰 香港 04'
+    network: ws
+    port: 2096
+    server: 172.64.229.220
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: { Host: sni.meibidi.pp.ua }
+      max-early-data: 2560
+      path: /
+  -
+    name: '🇭🇰 香港 05'
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.246
+    skip-cert-verify: true
+    sni: 58.152.46.246
+    tls: true
+    type: "trojan"
+  -
+    client-fingerprint: chrome
+    delay: 691
+    encryption: none
+    name: '🇭🇰 香港 06'
+    network: ws
+    port: 2096
+    server: vip3.kaixincloud.top
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: { Host: sni.meibidi.pp.ua }
+      max-early-data: 2560
+      path: /
+  -
+    name: '🇭🇰 香港 07'
+    network: ws
+    port: 443
+    server: 104.17.25.173
+    servername: l.ayovo.netlib.re
+    tls: true
+    type: "vless"
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers: { Host: l.ayovo.netlib.re }
+      path: '/?ed=2560'
+  -
+    name: '🇭🇰 香港 08'
+    network: ws
+    port: 8443
+    server: vip3.kaixincloud.top
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
+  -
+    client-fingerprint: chrome
+    name: '🇭🇰 香港 09'
+    network: ws
+    port: 2096
+    server: v3.dabache.top
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
+  -
+    name: '🇭🇰 香港 10'
+    network: ws
+    port: 443
+    server: staticdelivery.nexusmods.com
+    servername: kb.as129394.me
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    ws-opts:
+      headers: { Host: kb.as129394.me }
+      path: '/?ed=2560'
+  -
+    client-fingerprint: chrome
+    name: '🇭🇰 香港 11'
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.246
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    name: '🇭🇰 香港 12'
+    network: ws
+    port: 8443
+    server: 172.64.145.144
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
+  -
+    client-fingerprint: chrome
+    name: '🇭🇰 香港 13'
+    network: ws
+    port: 443
+    server: vip1.kaixincloud.top
+    servername: kb.as129394.me
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    ws-opts:
+      headers: { Host: kb.as129394.me }
+      path: '/?ed=2560'
+  -
+    client-fingerprint: chrome
+    name: '🇭🇰 香港 14'
+    network: ws
+    port: 443
+    server: 104.16.250.22
+    servername: l.ayovo.netlib.re
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers: { Host: l.ayovo.netlib.re }
+      path: '/?ed=2560'
+  -
+    name: '🇭🇰 香港 15'
+    network: ws
+    port: 2096
+    server: cf.3666888.xyz
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
+  -
+    client-fingerprint: chrome
+    delay: 537
+    encryption: none
+    name: '🇭🇰 香港 16'
+    network: ws
+    port: 2096
+    server: saas.sin.fan
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: { Host: sni.meibidi.pp.ua }
+      max-early-data: 2560
+      path: /
+  -
+    client-fingerprint: chrome
+    delay: 1997
+    name: '🇭🇰 香港 17'
+    network: ws
+    port: 2096
+    server: vip1.kaixincloud.top
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: { Host: sni.meibidi.pp.ua }
+      max-early-data: 2560
+      path: /
+  -
     client-fingerprint: chrome
     delay: 438
     encryption: none
-    name: '🇭🇰 香港 10'
+    name: '🇭🇰 香港 18'
     network: ws
     port: 443
     server: staticdelivery.nexusmods.com
@@ -180,17 +320,73 @@ proxies:
       max-early-data: 2560
       path: /
   -
-    name: '🇭🇰 香港 11'
+    client-fingerprint: chrome
+    delay: 699
+    encryption: none
+    name: '🇭🇰 香港 19'
     network: ws
     port: 443
-    server: 104.17.25.173
-    servername: l.ayovo.netlib.re
+    server: 104.18.45.223
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
     tls: true
     type: "vless"
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
     ws-opts:
-      headers: { Host: l.ayovo.netlib.re }
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers: { Host: sni.meibidi.pp.ua }
+      max-early-data: 2560
+      path: /
+  -
+    name: '🇭🇰 香港 20'
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.246
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    tls: true
+    type: "trojan"
+  -
+    client-fingerprint: chrome
+    name: '🇭🇰 香港 21'
+    network: ws
+    port: 443
+    server: vip3.kaixincloud.top
+    servername: kb.as129394.me
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    ws-opts:
+      headers: { Host: kb.as129394.me }
       path: '/?ed=2560'
+  -
+    country: 🇭🇰HK
+    name: '🇭🇰 香港 22'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 26003
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: chrome
+    encryption: none
+    name: '🇭🇰 香港 23'
+    network: ws
+    port: 443
+    server: v2.dabache.top
+    servername: sni.meibidi.pp.ua
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua, User-Agent: 'Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36' }
+      path: '/?ed=2560'
+    xudp: true
   -
     name: '🇰🇷 韩国 01'
     type: "ss"
@@ -299,26 +495,6 @@ proxies:
   -
     country: '🇭🇰 HK'
     name: '原生住宅 02'
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.246
-    skip-cert-verify: true
-    tls: true
-    type: "trojan"
-    udp: true
-  -
-    name: '原生住宅 03'
-    network: tcp
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.246
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    tls: true
-    type: "trojan"
-  -
-    country: '🇭🇰 HK'
-    name: '原生住宅 04'
     password: 4843e94d205f3893f588255a591abe94
     port: 443
     server: 58.152.18.124
@@ -327,20 +503,18 @@ proxies:
     type: "trojan"
     udp: true
   -
-    alterId: 0
-    cipher: "auto"
-    h2-opts: {  }
-    http-opts:
-      method: GET
-      path: [/QQqun-737805443]
-    name: '原生住宅 05'
-    network: http
-    port: 52080
-    server: 61.15.60.153
-    type: "vmess"
-    uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
+    country: 🇭🇰HK
+    name: '原生住宅 03'
+    password: 4843e94d205f3893f588255a591abe94
+    port: 443
+    server: 58.152.18.124
+    skip-cert-verify: true
+    sni: www.nintendogames.net
+    tls: true
+    type: "trojan"
+    udp: true
   -
-    name: '原生住宅 06'
+    name: '原生住宅 04'
     password: mrwdfNTD8M79LCukCieldrqZWqs=
     port: 1443
     server: twmoon1-cdn-route.couldflare-cdn.com
@@ -350,35 +524,313 @@ proxies:
     udp: true
     username: mrwdfNTD8M79LCukCieldrqZWqs=
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.24
+    name: '广播机房 01'
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    type: "vless"
+    udp: true
+    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+    ws-opts:
+      headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36' }
+      path: 'ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
+    xudp: true
+  -
+    country: 🇭🇰HK
+    name: '广播机房 02'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 27001
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    encryption: none
+    name: '广播机房 03'
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    type: "vless"
+    udp: true
+    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+    ws-opts:
+      headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36' }
+      path: '/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
+    xudp: true
+  -
+    client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: '广播机房 04'
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 152.53.51.24
+    servername: one-piece.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+  -
+    name: '广播机房 05'
+    password: 'M7v%w11Se*'
+    port: 443
+    server: tttyder.wsone.icu
+    skip-cert-verify: true
+    sni: tttyder.wsone.icu
+    tls: true
+    type: "trojan"
+  -
+    country: 🇭🇰HK
+    name: '广播机房 06'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 27009
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    country: 🇫🇷FR
+    name: '广播机房 07'
+    password: telegram-id-directvpn
+    port: 22223
+    server: 13.36.202.63
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    country: 🇭🇰HK
+    name: '广播机房 08'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 27005
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: '广播机房 09'
+    network: tcp
+    port: 4443
+    reality-opts:
+      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+      short-id: aa7e96542880027a
+    server: 5.180.24.11
+    servername: github.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
+    xudp: true
+  -
+    country: 🇭🇰HK
+    name: '广播机房 10'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 27006
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: chrome
+    name: '广播机房 11'
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    servername: welcomtofreeboarders.com
+    tls: false
+    type: "vless"
+    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+    ws-opts:
+      headers: { Host: welcomtofreeboarders.com }
+      path: '/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
+  -
+    name: '广播机房 12'
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    tls: false
+    type: "vless"
+    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+    ws-opts:
+      headers: { Host: welcomtofreeboarders.com }
+      path: 'ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
+  -
+    cipher: "chacha20-ietf-poly1305"
+    country: 🇧🇪BE
+    name: '广播机房 13'
+    password: e5c3f903e81d5d4e
+    port: 10013
+    server: 57.128.190.194
+    type: "ss"
+  -
+    encryption: none
+    name: '广播机房 14'
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    type: "vless"
+    udp: true
+    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+    ws-opts:
+      headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24' }
+      path: '/ws/?ed=2048'
+    xudp: true
+  -
+    name: '广播机房 15'
+    network: ws
+    port: 2096
+    server: 108.162.198.24
+    servername: sni.meibidi.pp.ua
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers: { Host: sni.meibidi.pp.ua }
+      path: '/?ed=2560'
+  -
+    country: 🇭🇰HK
+    name: '广播机房 16'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 26004
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: chrome
+    name: '广播机房 17'
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    tls: false
+    type: "vless"
+    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+    ws-opts:
+      headers: { Host: welcomtofreeboarders.com }
+      path: '/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
+  -
+    country: 🇫🇷FR
+    name: '广播机房 18'
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 13.36.202.63
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: '广播机房 19'
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
+      short-id: aabbccdd
+    server: 176.125.240.166
+    servername: apple.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 002accb526534fcab24a72b0ea1cff59
+  -
+    cipher: "chacha20-ietf-poly1305"
+    country: 🇮🇱IL
+    name: '广播机房 20'
+    password: 317f13c5c2ebdea3
+    port: 11201
+    server: 5.188.227.18
     type: "ss"
   -
     client-fingerprint: chrome
     encryption: none
-    name: '原生机房 01'
+    name: '广播机房 21'
     network: ws
     port: 443
-    server: 104.21.224.5
+    server: 104.18.185.26
     servername: l.ayovo.netlib.re
     tls: true
     type: "vless"
     udp: true
     uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
-      headers: { Host: l.ayovo.netlib.re, User-Agent: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17' }
+      headers: { Host: l.ayovo.netlib.re, User-Agent: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' }
       path: '/?ed=2560'
     xudp: true
   -
-    client-fingerprint: chrome
-    name: '原生机房 02'
+    encryption: none
+    name: '广播机房 22'
     network: ws
-    port: 2096
-    server: vip2.kaixincloud.top
+    port: 80
+    server: 172.66.0.102
+    type: "vless"
+    udp: true
+    uuid: 👉👉BanV2ray👈👈
+    ws-opts:
+      headers: { Host: visvuev-272526281716252527717252.poshakhowdy.ir., User-Agent: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36' }
+      path: '/www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143'
+    xudp: true
+  -
+    client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: '广播机房 23'
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 152.53.48.237
+    servername: one-piece.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+  -
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: '广播机房 24'
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+      short-id: c7e42004e5f024be
+    server: 95.174.92.156
+    servername: sun6-21.userapi.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
+    xudp: true
+  -
+    name: '广播机房 25'
+    network: ws
+    port: 443
+    server: 68.64.176.135
     servername: sni.meibidi.pp.ua
     tls: true
     type: "vless"
@@ -390,7 +842,181 @@ proxies:
   -
     client-fingerprint: chrome
     encryption: none
-    name: '原生机房 03'
+    http-opts:
+      headers: {  }
+      path: [/]
+    name: '广播商宽 01'
+    network: tcp
+    port: 443
+    server: 144.31.0.64
+    servername: plcdn1.suio.me
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    xudp: true
+  -
+    country: 🇭🇰HK
+    name: '广播商宽 02'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 27003
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: firefox
+    name: '广播商宽 03'
+    port: 587
+    reality-opts:
+      public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+      short-id: 916e8258c4a01b02
+    server: turkiye.torprospeed.ir
+    servername: excoino.com
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+  -
+    alterId: 0
+    cipher: "auto"
+    h2-opts: {  }
+    http-opts: {  }
+    name: '广播商宽 04'
+    network: none
+    port: 15542
+    server: 38.60.200.142
+    type: "vmess"
+    uuid: d5cf6d36-f065-4e1b-ca2d-6fe23710603c
+  -
+    country: 🇭🇰HK
+    name: '广播商宽 05'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 26010
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    name: '广播商宽 06'
+    network: tcp
+    port: 443
+    server: 144.31.1.127
+    servername: plcdn13.suio.me
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  -
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: '广播商宽 07'
+    network: tcp
+    port: 56824
+    reality-opts:
+      public-key: Gpzl6U5r_tIq-xIGyXhzT37vIDsZW6Vot6XL1sH6lVM
+      short-id: aabbccdd
+    server: nl11.odavpn.online
+    servername: ya.ru
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: af1a9622-5deb-480c-8539-d8763f59e012
+  -
+    country: 🇭🇰HK
+    name: '广播商宽 08'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 26009
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    country: 🇭🇰HK
+    name: '广播商宽 09'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 26007
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: '广播商宽 10'
+    port: 443
+    reality-opts:
+      public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+      short-id: 00684d2eae2cdd16
+    server: 5.101.36.153
+    servername: apple.com
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  -
+    country: 🇭🇰HK
+    name: '广播商宽 11'
+    password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+    port: 26005
+    server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+    skip-cert-verify: true
+    sni: www.bilibili.com
+    tls: true
+    type: "trojan"
+    udp: true
+  -
+    name: '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+    password: ''
+    port: 10809
+    server: 146.235.19.84
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
+  -
+    name: '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+    port: 1090
+    server: 121.169.46.116
+    type: "socks5"
+    username: Og%3D%3D
+  -
+    name: '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+    password: ''
+    port: 1080
+    server: 193.233.254.9
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
+  -
+    name: '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+    password: ''
+    port: 10819
+    server: 213.35.110.67
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
+  -
+    name: '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+    password: ''
+    port: 1080
+    server: 89.148.196.156
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
+  -
+    client-fingerprint: chrome
+    encryption: none
+    name: '原生机房 01'
     network: ws
     port: 443
     server: 104.21.227.134
@@ -404,69 +1030,46 @@ proxies:
       path: '/?ed=2560'
     xudp: true
   -
-    alterId: 2
-    cipher: "auto"
-    country: 🇭🇰HK
-    h2-opts: {  }
-    http-opts: {  }
-    name: '原生机房 04'
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
-    servername: v8.hdacd.com
-    skip-cert-verify: true
-    type: "vmess"
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  -
     client-fingerprint: chrome
-    name: '原生机房 05'
-    network: ws
-    port: 2053
-    server: www.aapanel.com
-    servername: snippet.danfeng.nn.kg
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers: { Host: snippet.danfeng.nn.kg }
-      path: '/danfeng?ed=2560'
-  -
-    client-fingerprint: chrome
-    name: '原生机房 06'
-    network: ws
-    port: 443
-    server: vip2.kaixincloud.top
-    servername: kb.as129394.me
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-    ws-opts:
-      headers: { Host: kb.as129394.me }
-      path: '/?ed=2560'
-  -
-    client-fingerprint: chrome
-    name: '原生机房 07'
-    network: ws
-    port: 2053
-    server: 1357900.xyz
-    servername: snippet.danfeng.nn.kg
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers: { Host: snippet.danfeng.nn.kg }
-      path: '/danfeng?ed=2560'
-  -
-    client-fingerprint: chrome
-    delay: 950
     encryption: none
-    name: '原生机房 08'
+    grpc-opts:
+      grpc-service-name: UpdateService
+    name: '原生机房 02'
+    network: grpc
+    port: 2083
+    reality-opts:
+      public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+      short-id: 6da16b1335651b38
+    server: 95.163.209.178
+    servername: ads.x5.ru
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+    xudp: true
+  -
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: '原生机房 03'
+    port: 443
+    reality-opts:
+      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+      short-id: 048fe5c8be4bb687
+    server: 217.12.40.76
+    servername: sun9-38.userapi.com
+    skip-cert-verify: false
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  -
+    client-fingerprint: chrome
+    delay: 536
+    encryption: none
+    name: '原生机房 04'
     network: ws
     port: 443
-    server: 104.21.224.5
+    server: 162.159.45.232
     servername: l.ayovo.netlib.re
     skip-cert-verify: false
     tls: true
@@ -479,39 +1082,9 @@ proxies:
       path: /
   -
     client-fingerprint: chrome
-    encryption: none
-    name: '原生机房 09'
-    network: ws
-    port: 443
-    server: cloudflare.182682.xyz
-    servername: l.ayovo.netlib.re
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers: { Host: l.ayovo.netlib.re, User-Agent: 'Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36' }
-      path: '/?ed=2560'
-    xudp: true
-  -
-    name: '原生机房 10'
-    network: ws
-    port: 2096
-    server: 25.129.197.138
-    servername: speed1.best-cloud.ir
-    skip-cert-verify: false
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
-    ws-opts:
-      headers: { Host: speed1.best-cloud.ir }
-      path: '/?ed=2048'
-  -
-    client-fingerprint: chrome
     delay: 420
     encryption: none
-    name: '原生机房 11'
+    name: '原生机房 05'
     network: ws
     port: 443
     server: 162.159.16.63
@@ -526,320 +1099,10 @@ proxies:
       max-early-data: 2560
       path: /
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '原生机房 12'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.51
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '原生机房 13'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.115
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 14'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.243
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 15'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.107
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 16'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.59
-    type: "ss"
-  -
-    alterId: 2
-    cipher: "auto"
-    country: 🇭🇰HK
-    h2-opts: {  }
-    http-opts: {  }
-    name: '原生机房 17'
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
-    skip-cert-verify: true
-    type: "vmess"
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  -
-    client-fingerprint: chrome
-    name: '原生机房 18'
-    network: ws
-    port: 8443
-    server: vip2.kaixincloud.top
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 19'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.55
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 20'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.77
-    type: "ss"
-  -
-    client-fingerprint: chrome
-    delay: 2883
-    name: '原生机房 21'
-    network: ws
-    port: 443
-    server: vip2.kaixincloud.top
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers: { Host: sni.meibidi.pp.ua }
-      max-early-data: 2560
-      path: /
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 22'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.238
-    type: "ss"
-  -
-    client-fingerprint: chrome
-    name: '原生机房 23'
-    network: ws
-    port: 443
-    server: www.visa.com
-    servername: sni.meibidi.pp.ua
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      headers: { Host: sni.meibidi.pp.ua }
-      path: '/?ed=2560'
-  -
-    alterId: 2
-    cipher: "auto"
-    country: '🏁 ZZ'
-    http-opts: {  }
-    name: '原生机房 24'
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
-    skip-cert-verify: true
-    type: "vmess"
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      path: /
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '原生机房 25'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.239
-    type: "ss"
-  -
-    client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: '原生机房 26'
-    network: grpc
-    port: 22955
-    reality-opts:
-      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-      short-id: 6ba85179e30d4fc2
-    server: 37.120.175.246
-    servername: one-piece.com
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-    xudp: true
-  -
-    name: '原生机房 27'
-    network: ws
-    port: 80
-    server: 185.143.233.235
-    servername: oon.visaups.ir
-    skip-cert-verify: false
-    tls: false
-    type: "vless"
-    udp: true
-    uuid: 087d8602-503b-4091-9f05-44c20792083c
-    ws-opts:
-      headers: { Host: oon.visaups.ir }
-      path: /
-  -
-    name: '广播机房 01'
-    network: ws
-    port: 80
-    server: 146.75.119.82
-    type: "vless"
-    udp: true
-    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-    ws-opts:
-      headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36' }
-      path: 'ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
-    xudp: true
-  -
-    encryption: none
-    name: '广播机房 02'
-    network: ws
-    port: 80
-    server: 146.75.119.82
-    type: "vless"
-    udp: true
-    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-    ws-opts:
-      headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36' }
-      path: '/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
-    xudp: true
-  -
-    encryption: none
-    name: '广播机房 03'
-    network: ws
-    port: 80
-    server: bastion.h3.speed.cloudflare.com
-    type: "vless"
-    udp: true
-    uuid: 👉👉BanV2ray👈👈
-    ws-opts:
-      headers: { Host: visvuev-272526281716252527717252.poshakhowdy.ir., User-Agent: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36' }
-      path: '/www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143'
-    xudp: true
-  -
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: '广播机房 04'
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-    server: 47.251.25.74
-    servername: www.amazon.com
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 18805ff3-b420-45de-af18-93be14024ae8
-  -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇧🇪BE
-    name: '广播机房 05'
-    password: 27e645dcf11ded1f
-    port: 47000
-    server: 57.128.190.144
-    type: "ss"
-  -
-    alterId: 2
-    cipher: "auto"
-    country: 🇭🇰HK
-    h2-opts: {  }
-    http-opts: {  }
-    name: '广播机房 06'
-    network: tcp
-    port: 30833
-    server: v33.hdacd.com
-    servername: v33.hdacd.com
-    skip-cert-verify: true
-    type: "vmess"
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  -
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: '广播机房 07'
-    network: tcp
-    port: 33873
-    reality-opts:
-      public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
-      short-id: de550428
-    server: 139.144.199.41
-    servername: www.nokia.com
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
-  -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇭🇰HK
-    name: '广播机房 08'
-    password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-    port: 13702
-    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-    type: "ss"
-  -
-    alterId: 0
-    cipher: "auto"
-    client-fingerprint: chrome
-    delay: 1679
-    name: '广播机房 09'
-    network: ws
-    port: 80
-    server: bastion.h3.speed.cloudflare.com
-    tls: false
-    type: "vless"
-    udp: true
-    uuid: 👉👉BanV2ray👈👈
-    ws-opts:
-      headers: { Host: visvuev-272526281716252527717252.poshakhowdy.ir. }
-      path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
-  -
-    encryption: none
-    name: '广播机房 10'
-    network: ws
-    port: 80
-    server: 146.75.119.82
-    type: "vless"
-    udp: true
-    uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-    ws-opts:
-      headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24' }
-      path: '/ws/?ed=2048'
-    xudp: true
-  -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇭🇰HK
-    name: '广播机房 11'
-    password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-    port: 13669
-    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-    type: "ss"
-  -
     client-fingerprint: chrome
     delay: 1610
     encryption: none
-    name: '广播机房 12'
+    name: '原生机房 06'
     network: ws
     port: 443
     server: 104.18.185.26
@@ -855,26 +1118,75 @@ proxies:
       path: /
   -
     client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: '广播机房 13'
-    port: 33873
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: '原生机房 07'
+    network: grpc
+    port: 22955
     reality-opts:
-      public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
-      short-id: de550428
-    server: 139.144.199.41
-    servername: www.nokia.com
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: octopusss5.info
+    servername: one-piece.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+  -
+    client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    name: '原生机房 08'
+    network: tcp
+    port: 443
+    server: s415.okgfwbackxyz.xyz
+    servername: u730537u99a3s415.okgfwbackxyz.xyz
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: e32f9c43-b141-3d58-b879-15c6a402e119
+    xudp: true
+  -
+    name: '原生机房 09'
+    network: ws
+    port: 443
+    server: 162.159.44.142
+    servername: l.ayovo.netlib.re
     skip-cert-verify: false
     tls: true
     type: "vless"
     udp: true
-    uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers: { Host: l.ayovo.netlib.re }
+      path: '/?ed=2560'
   -
-    name: '广播机房 14'
+    client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: '原生机房 10'
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 37.120.175.246
+    servername: one-piece.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+  -
+    client-fingerprint: chrome
+    name: '原生机房 11'
     network: ws
     port: 443
-    server: 217.142.185.111
+    server: www.visa.com
     servername: sni.meibidi.pp.ua
-    skip-cert-verify: false
     tls: true
     type: "vless"
     udp: true
@@ -885,7 +1197,7 @@ proxies:
   -
     client-fingerprint: chrome
     encryption: none
-    name: '广播机房 15'
+    name: '原生机房 12'
     network: ws
     port: 443
     server: 162.159.16.63
@@ -899,147 +1211,34 @@ proxies:
       path: '/?ed=2560'
     xudp: true
   -
-    alterId: 0
-    cipher: "auto"
-    name: '广播机房 16'
-    network: ws
-    port: 19399
-    server: mlmainaaa.7yq.top
-    skip-cert-verify: true
-    tls: false
-    type: "vmess"
-    udp: true
-    uuid: b6cfe5d2-19e9-436d-b862-1935c62dcb14
-    ws-opts:
-      headers: { Host: shoutingtoutiao3.10010.com }
-      path: /
-  -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇭🇰HK
-    name: '广播机房 17'
-    password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-    port: 18005
-    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-    type: "ss"
-  -
-    client-fingerprint: chrome
-    delay: 1980
-    encryption: none
-    name: '广播机房 18'
-    network: ws
-    port: 443
-    server: 217.142.185.111
-    servername: sni.meibidi.pp.ua
-    skip-cert-verify: false
-    tls: true
-    type: "vless"
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers: { Host: sni.meibidi.pp.ua }
-      max-early-data: 2560
-      path: /
-  -
     client-fingerprint: chrome
     encryption: none
-    grpc-opts:
-      grpc-service-name: UpdateService
-    name: '广播机房 19'
-    network: grpc
-    port: 2083
+    flow: xtls-rprx-vision
+    name: '🇮🇳IN²_2|7.7MB/s|X|History 01'
+    network: tcp
+    port: 4443
     reality-opts:
-      public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-      short-id: 6da16b1335651b38
-    server: 213.176.73.206
-    servername: apple.com
+      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+      short-id: aa7e96542880027a
+    server: 45.89.105.24
+    servername: github.com
     tls: true
     type: "vless"
     udp: true
-    uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+    uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
     xudp: true
   -
-    client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: '广播机房 20'
-    network: grpc
-    port: 22955
-    reality-opts:
-      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-      short-id: 6ba85179e30d4fc2
-    server: 152.53.48.224
-    servername: one-piece.com
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-    xudp: true
-  -
-    name: '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-    network: ws
-    port: 8880
-    server: clean.photoggenic.ir
-    servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-    tls: false
-    type: "vless"
-    udp: true
-    uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-    ws-opts:
-      headers: { Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir }
-      path: '/?ed=8880'
-  -
-    name: '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
+    name: '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
     password: ''
-    port: 1080
-    server: 161.35.31.237
-    skip-cert-verify: true
-    type: "socks5"
-    username: ''
-  -
-    cipher: "aes-256-cfb"
-    country: '🇨🇳 CN'
-    name: '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.112
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.144
-    type: "ss"
-  -
-    client-fingerprint: chrome
-    encryption: none
-    name: '原生商宽 01'
-    network: ws
-    port: 443
-    server: nv183.momdping.com
-    servername: nv183.momdping.com
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 1ffa5028-2c8a-43ed-a4f3-f80c203da8ea
-    ws-opts:
-      headers: { Host: '', User-Agent: 'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36' }
-      path: /
-    xudp: true
-  -
-    name: '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-    password: ''
-    port: 3905
-    server: 138.199.25.13
+    port: 10850
+    server: 213.35.110.67
     skip-cert-verify: true
     type: "socks5"
     username: ''
   -
     client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
+    name: '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
     port: 443
     reality-opts:
       public-key: rmjxUM7tGXK1tCx9DN6LujbEflBHixsg8oTsVrdTrDM
@@ -1050,301 +1249,80 @@ proxies:
     type: "vless"
     uuid: 0d93b787-b66b-4696-a036-a0f549764f69
   -
-    cipher: "aes-256-cfb"
-    country: '🇨🇳 CN'
-    name: '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.37
+    cipher: "aes-256-gcm"
+    country: 🇩🇪DE
+    name: '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+    password: RexnBgU7EV5ADxG
+    port: 7001
+    server: 213.202.208.199
     type: "ss"
   -
-    name: '广播商宽 01'
-    network: tcp
-    port: 443
-    server: plcdn13.suio.me
-    servername: plcdn13.suio.me
-    tls: true
-    type: "vless"
-    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-  -
-    alterId: 0
-    cipher: "auto"
-    h2-opts: {  }
-    http-opts: {  }
-    name: '广播商宽 02'
-    network: none
-    port: 49387
-    server: 38.54.126.139
-    type: "vmess"
-    uuid: 3dc72a63-866b-423a-dcfb-1b782caf462e
-  -
-    country: '🇹🇼 TW'
-    name: '广播商宽 03'
-    password: 1f86e372-1ee6-47eb-8c33-72bfc310dee6
-    port: 35502
-    server: green2.cdntencentmusic.com
+    name: '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+    password: ''
+    port: 15081
+    server: 152.53.171.242
     skip-cert-verify: true
-    tls: true
-    type: "trojan"
-    udp: true
+    type: "socks5"
+    username: ''
   -
-    name: '广播商宽 04'
-    network: tcp
-    port: 443
-    server: 144.31.1.127
-    servername: plcdn13.suio.me
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    name: '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+    password: ''
+    port: 1090
+    server: 121.169.46.116
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
   -
-    client-fingerprint: firefox
-    encryption: none
-    name: '广播商宽 05'
-    network: tcp
-    port: 587
-    reality-opts:
-      public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-      short-id: 916e8258c4a01b02
-    server: uae.torprospeed.ir
-    servername: excoino.com
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-    xudp: true
-  -
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: '广播商宽 06'
-    network: tcp
-    port: 56824
-    reality-opts:
-      public-key: Gpzl6U5r_tIq-xIGyXhzT37vIDsZW6Vot6XL1sH6lVM
-      short-id: aabbccdd
-    server: nl11.odavpn.online
-    servername: ya.ru
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: af1a9622-5deb-480c-8539-d8763f59e012
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.70
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.224
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.64
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.105
-    type: "ss"
-  -
-    alterId: 0
-    cipher: "auto"
-    h2-opts: {  }
-    http-opts: {  }
-    name: '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-    network: none
-    port: 33651
-    server: 23.27.28.125
-    type: "vmess"
-    uuid: 2ef740c4-08ed-4924-a8d8-7517fc987a8a
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.106
-    type: "ss"
-  -
-    name: '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-    network: ws
-    port: 8880
-    server: 25.25.25.0
-    servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-    skip-cert-verify: false
+    name: '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+    port: 1080
+    server: 193.233.254.7
     tls: false
-    type: "vless"
-    udp: true
-    uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-    ws-opts:
-      headers: { Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir }
-      path: '/?ed=8880'
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.68
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.102
-    type: "ss"
-  -
-    name: '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-    password: ''
-    port: 12237
-    server: 37.120.162.180
-    skip-cert-verify: true
     type: "socks5"
-    username: ''
+    username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
   -
-    name: '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-    password: ''
-    port: 4145
-    server: 192.145.31.160
-    skip-cert-verify: true
-    type: "socks5"
-    username: ''
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.204
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.145
-    type: "ss"
-  -
-    encryption: none
-    name: '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-    network: ws
-    port: 8880
-    server: clean.photoggenic.ir
-    type: "vless"
-    udp: true
-    uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-    ws-opts:
-      headers: { Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36' }
-      path: '/?ed=8880'
-    xudp: true
-  -
-    name: '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-    password: ''
-    port: 10808
-    server: 213.35.110.67
-    skip-cert-verify: true
-    type: "socks5"
-    username: ''
-  -
-    alpn:
-      - h3
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
+    name: '🇺🇸US¹⁺_7|0.6MB/s|X 01'
     network: ws
     port: 443
-    server: 104.21.43.168
-    servername: Ggjd.digikala.lat
+    server: cloudflare.182682.xyz
+    servername: l.ayovo.netlib.re
     tls: true
     type: "vless"
     udp: true
-    uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
-      headers: { Host: private.digikala.lat, User-Agent: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36' }
-      path: /
-    xudp: true
+      headers: { Host: l.ayovo.netlib.re }
+      path: '/x-aniu/?ed=2560'
   -
-    name: '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-    password: ''
-    port: 10335
-    server: 37.120.162.180
-    skip-cert-verify: true
-    type: "socks5"
-    username: ''
-  -
-    cipher: "aes-256-cfb"
-    country: 🏁ZZ
-    name: '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.111
-    type: "ss"
-  -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.176
-    type: "ss"
-  -
-    name: '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-    password: ''
-    port: 21025
-    server: 37.120.162.180
-    skip-cert-verify: true
-    type: "socks5"
-    username: ''
-  -
-    name: '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
+    name: '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
     password: ''
     port: 1080
-    server: 104.248.203.234
+    server: 185.194.217.97
     skip-cert-verify: true
     type: "socks5"
     username: ''
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.155.35
-    type: "ss"
+    name: '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+    port: 1090
+    server: 121.169.46.116
+    tls: false
+    type: "socks5"
+    username: Og%3D%3D
   -
-    cipher: "aes-256-cfb"
-    name: '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.167
-    type: "ss"
-    udp: true
+    name: '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+    password: ''
+    port: 1080
+    server: 161.35.82.57
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
   -
-    cipher: "aes-256-cfb"
-    country: '🏁 ZZ'
-    name: '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
-    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-    port: 38388
-    server: 103.186.154.186
-    type: "ss"
+    name: '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
+    password: ''
+    port: 1080
+    server: 174.138.61.184
+    skip-cert-verify: true
+    type: "socks5"
+    username: ''
 proxy-groups:
   -
     name: '🚀 节点选择'
@@ -1354,7 +1332,7 @@ proxy-groups:
       - DIRECT
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -1367,6 +1345,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -1383,36 +1373,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -1433,44 +1393,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: '♻️ 自动选择'
     type: "url-test"
@@ -1480,7 +1447,7 @@ proxy-groups:
     proxies:
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -1493,6 +1460,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -1509,36 +1488,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -1559,44 +1508,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: '🌍 国外媒体'
     type: "select"
@@ -1606,7 +1562,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -1619,6 +1575,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -1635,36 +1603,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -1685,44 +1623,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: '📲 电报信息'
     type: "select"
@@ -1731,7 +1676,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -1744,6 +1689,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -1760,36 +1717,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -1810,44 +1737,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: 'Ⓜ️ 微软服务'
     type: "select"
@@ -1856,7 +1790,7 @@ proxy-groups:
       - '🚀 节点选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -1869,6 +1803,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -1885,36 +1831,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -1935,44 +1851,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: '🍎 苹果服务'
     type: "select"
@@ -1981,7 +1904,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -1994,6 +1917,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -2010,36 +1945,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -2060,44 +1965,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: '📢 谷歌FCM'
     type: "select"
@@ -2107,7 +2019,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -2120,6 +2032,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -2136,36 +2060,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -2186,44 +2080,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
   -
     name: '🎯 全球直连'
     type: "select"
@@ -2252,7 +2153,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-20 03:32:19'
+      - '更新于：2026-01-20 15:35:23'
       - '🇺🇸 美国 01'
       - '🇭🇰 香港 01'
       - '🇭🇰 香港 02'
@@ -2265,6 +2166,18 @@ proxy-groups:
       - '🇭🇰 香港 09'
       - '🇭🇰 香港 10'
       - '🇭🇰 香港 11'
+      - '🇭🇰 香港 12'
+      - '🇭🇰 香港 13'
+      - '🇭🇰 香港 14'
+      - '🇭🇰 香港 15'
+      - '🇭🇰 香港 16'
+      - '🇭🇰 香港 17'
+      - '🇭🇰 香港 18'
+      - '🇭🇰 香港 19'
+      - '🇭🇰 香港 20'
+      - '🇭🇰 香港 21'
+      - '🇭🇰 香港 22'
+      - '🇭🇰 香港 23'
       - '🇰🇷 韩国 01'
       - '🇰🇷 韩国 02'
       - '🇰🇷 韩国 03'
@@ -2281,36 +2194,6 @@ proxy-groups:
       - '原生住宅 02'
       - '原生住宅 03'
       - '原生住宅 04'
-      - '原生住宅 05'
-      - '原生住宅 06'
-      - '🇻🇳VN²_1|1.8MB/s|GPT|GM|X 01'
-      - '原生机房 01'
-      - '原生机房 02'
-      - '原生机房 03'
-      - '原生机房 04'
-      - '原生机房 05'
-      - '原生机房 06'
-      - '原生机房 07'
-      - '原生机房 08'
-      - '原生机房 09'
-      - '原生机房 10'
-      - '原生机房 11'
-      - '原生机房 12'
-      - '原生机房 13'
-      - '原生机房 14'
-      - '原生机房 15'
-      - '原生机房 16'
-      - '原生机房 17'
-      - '原生机房 18'
-      - '原生机房 19'
-      - '原生机房 20'
-      - '原生机房 21'
-      - '原生机房 22'
-      - '原生机房 23'
-      - '原生机房 24'
-      - '原生机房 25'
-      - '原生机房 26'
-      - '原生机房 27'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
@@ -2331,44 +2214,51 @@ proxy-groups:
       - '广播机房 18'
       - '广播机房 19'
       - '广播机房 20'
-      - '🇩🇪DE²_1|0.6MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_2|5.4MB/s|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_2|0.7MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_3|0.7MB/s|GPT⁺|X|History 01'
-      - '原生商宽 01'
-      - '🏴‍☠_1138.199.25.13:3905-01|0.6MB/s|X 01'
-      - '🇰🇿KZ²_1|2.0MB/s|0%|GPT|X|Succeed 01'
-      - '🇻🇳VN²_4|1.5MB/s|GPT⁺|X 01'
+      - '广播机房 21'
+      - '广播机房 22'
+      - '广播机房 23'
+      - '广播机房 24'
+      - '广播机房 25'
       - '广播商宽 01'
       - '广播商宽 02'
       - '广播商宽 03'
       - '广播商宽 04'
       - '广播商宽 05'
       - '广播商宽 06'
-      - '🇻🇳VN²_5|2.2MB/s|GPT⁺|YT-US|X 01'
-      - '🇻🇳VN²_6|3.0MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_7|1.3MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_8|2.4MB/s|GPT⁺|X|History 01'
-      - '🇲🇾MY²_1|4.5MB/s|GM|X 01'
-      - '🇻🇳VN²_9|1.5MB/s|GPT⁺|GM|X|History 01'
-      - '🇩🇪DE²_5|0.6MB/s|27%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_10|1.5MB/s|GPT⁺|GM|X 01'
-      - '🇻🇳VN²_11|2.3MB/s|GPT⁺|GM|X 01'
-      - '🇬🇧GB²_3|1.8MB/s|8%|GPT⁺|X 01'
-      - '🏴‍☠_2🇧🇬BG²_1|0.5MB/s|0.5MB/s|X|History 01'
-      - '🇸🇬SG²_1|2.3MB/s|GPT|GM|X 01'
-      - '🇻🇳VN²_17|0.7MB/s|GPT⁺|X|History 01'
-      - '🇩🇪DE²_6|6.1MB/s|27%|GPT⁺|X|History 01'
-      - '🇸🇬SG²_2|3.4MB/s|4%|GPT⁺|GM|X|History 01'
-      - '🏴‍☠_3🔥Join+Telegram:@Farah_VPN🟣-1661|3.9MB/s|X 01'
-      - '🇩🇪DE²_7|1.8MB/s|1%|GPT⁺|X|Succeed 01'
-      - '🇻🇳VN²_21|1.0MB/s|GPT|GM|YT-US|X 01'
-      - '🇻🇳VN²_22|2.0MB/s|GPT⁺|GM|YT-US|X 01'
-      - '🏴‍☠_437.120.162.180:21025-01|1.6MB/s|X 01'
-      - '🇳🇱NL²_4|5.5MB/s|GPT|X|Succeed 01'
-      - '🇻🇳VN²_24|2.2MB/s|GPT⁺|GM|X|History 01'
-      - '🇻🇳VN²_25|0.7MB/s|GPT⁺|X|History 01'
-      - '🇻🇳VN²_26|2.2MB/s|GPT⁺|GM|X|History 01'
+      - '广播商宽 07'
+      - '广播商宽 08'
+      - '广播商宽 09'
+      - '广播商宽 10'
+      - '广播商宽 11'
+      - '🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X 01'
+      - '🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History 01'
+      - '🇸🇬SG²_3|2.2MB/s|GPT|X|History 01'
+      - '🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History 01'
+      - '原生机房 01'
+      - '原生机房 02'
+      - '原生机房 03'
+      - '原生机房 04'
+      - '原生机房 05'
+      - '原生机房 06'
+      - '原生机房 07'
+      - '原生机房 08'
+      - '原生机房 09'
+      - '原生机房 10'
+      - '原生机房 11'
+      - '原生机房 12'
+      - '🇮🇳IN²_2|7.7MB/s|X|History 01'
+      - '🇸🇬SG²_4|1.7MB/s|GPT⁺|X 01'
+      - '🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed 01'
+      - '🇩🇪DE²_1|1.4MB/s|X|Succeed 01'
+      - '🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed 01'
+      - '🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History 01'
+      - '🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed 01'
+      - '🇺🇸US¹⁺_7|0.6MB/s|X 01'
+      - '🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed 01'
+      - '🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed 01'
+      - '🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History 01'
+      - '🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed 01'
 rules:
   - 'DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连'
   - 'DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连'
