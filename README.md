@@ -8,13 +8,13 @@
 
 🚀	clash订阅链接：
 
-* https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/clash-20260121.yaml
+* https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/clash-20260122.yaml
 
 🚀	v2ray、hiddify、singbox、shadowroket小火箭订阅链接：
 
-* https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/v2ray-20260121.txt
+* https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/v2ray-20260122.txt
 
-🕙 更新日期：2026-01-21 22:52:01。
+🕙 更新日期：2026-01-22 01:00:02。
 
 🔍	来源：https://clashfreenode.com
 
