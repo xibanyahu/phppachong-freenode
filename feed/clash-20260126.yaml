@@ -17,65 +17,29 @@ dns:
     - 'tls://dns.google:853'
 proxies:
   -
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
+    cipher: "aes-256-cfb"
+    country: '🏁 ZZ'
     name: '每天更新免费节点：clashfreenode.com'
-    network: ws
-    port: 443
-    server: 192.0.54.34
-    servername: cErT.sHakHle.iR
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-    ws-opts:
-      headers: { Host: cErT.sHakHle.iR, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36' }
-      path: '/?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN'
-    xudp: true
+    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+    port: 38388
+    server: 103.186.155.49
+    type: "ss"
   -
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
+    cipher: "aes-256-cfb"
+    country: '🏁 ZZ'
     name: 'tg频道：@clashfreenode'
-    network: ws
-    port: 443
-    server: 192.0.54.34
-    servername: cErT.sHakHle.iR
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-    ws-opts:
-      headers: { Host: cErT.sHakHle.iR, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36' }
-      path: '/?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN'
-    xudp: true
+    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+    port: 38388
+    server: 103.186.155.49
+    type: "ss"
   -
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: '更新于：2026-01-25 21:24:27'
-    network: ws
-    port: 443
-    server: 192.0.54.34
-    servername: cErT.sHakHle.iR
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-    ws-opts:
-      headers: { Host: cErT.sHakHle.iR, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36' }
-      path: '/?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN'
-    xudp: true
+    cipher: "aes-256-cfb"
+    country: '🏁 ZZ'
+    name: '更新于：2026-01-26 00:50:29'
+    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+    port: 38388
+    server: 103.186.155.49
+    type: "ss"
   -
     name: '🇺🇸 美国 01'
     server: 63.180.254.10
@@ -176,13 +140,21 @@ proxies:
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
-    cipher: "chacha20-ietf"
-    country: '🇭🇰 HK'
+    client-fingerprint: chrome
+    encryption: none
     name: '🇭🇰 香港 05'
-    password: asd123456
-    port: 8388
-    server: 103.149.183.200
-    type: "ss"
+    network: ws
+    port: 443
+    server: cloudflare.182682.xyz
+    servername: l.ayovo.netlib.re
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers: { Host: l.ayovo.netlib.re, User-Agent: 'Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36' }
+      path: '/?ed=2560'
+    xudp: true
   -
     client-fingerprint: chrome
     delay: 1610
@@ -331,25 +303,13 @@ proxies:
       headers: { Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net }
     cipher: "auto"
   -
-    alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: '🇩🇪DE²_1|2.6MB/s|X|History 01'
-    network: ws
-    port: 443
-    server: 192.0.54.34
-    servername: cErT.sHakHle.iR
-    tls: true
-    type: "vless"
-    udp: true
-    uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-    ws-opts:
-      headers: { Host: cErT.sHakHle.iR, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36' }
-      path: '/?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN'
-    xudp: true
+    cipher: "aes-256-cfb"
+    country: '🏁 ZZ'
+    name: '🇻🇳VN²_1|0.6MB/s|X|History 01'
+    password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
+    port: 38388
+    server: 103.186.155.49
+    type: "ss"
 proxy-groups:
   -
     name: '🚀 节点选择'
@@ -359,7 +319,7 @@ proxy-groups:
       - DIRECT
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -390,7 +350,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: '♻️ 自动选择'
     type: "url-test"
@@ -400,7 +360,7 @@ proxy-groups:
     proxies:
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -431,7 +391,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: '🌍 国外媒体'
     type: "select"
@@ -441,7 +401,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -472,7 +432,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: '📲 电报信息'
     type: "select"
@@ -481,7 +441,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -512,7 +472,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: 'Ⓜ️ 微软服务'
     type: "select"
@@ -521,7 +481,7 @@ proxy-groups:
       - '🚀 节点选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -552,7 +512,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: '🍎 苹果服务'
     type: "select"
@@ -561,7 +521,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -592,7 +552,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: '📢 谷歌FCM'
     type: "select"
@@ -602,7 +562,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -633,7 +593,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
   -
     name: '🎯 全球直连'
     type: "select"
@@ -662,7 +622,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-01-25 21:24:27'
+      - '更新于：2026-01-26 00:50:29'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -693,7 +653,7 @@ proxy-groups:
       - '约旦 01'
       - '🇭🇰 中国香港 01'
       - '原生住宅 01'
-      - '🇩🇪DE²_1|2.6MB/s|X|History 01'
+      - '🇻🇳VN²_1|0.6MB/s|X|History 01'
 rules:
   - 'DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连'
   - 'DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连'
