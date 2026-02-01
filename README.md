@@ -14,7 +14,7 @@
 
 * https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/v2ray-20260201.txt
 
-🕙 更新日期：2026-02-01 12:30:01。
+🕙 更新日期：2026-02-01 14:08:02。
 
 🔍	来源：https://clashfreenode.com
 
