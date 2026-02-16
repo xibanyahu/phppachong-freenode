@@ -35,7 +35,7 @@ proxies:
   -
     cipher: "aes-256-cfb"
     country: '🏁 ZZ'
-    name: '更新于：2026-02-16 01:52:20'
+    name: '更新于：2026-02-16 06:25:30'
     password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
     port: 38388
     server: 103.186.154.28
@@ -49,7 +49,7 @@ proxies:
     password: amazonskr05
   -
     name: '🇺🇸 美国 02'
-    server: 35.77.86.187
+    server: 54.95.11.131
     port: 1281
     type: "trojan"
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -62,15 +62,15 @@ proxies:
     type: "trojan"
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
-    skip-cert-verify: true
+    skip-cert-verify: false
   -
     name: '🇺🇸 美国 04'
-    server: 95.40.90.209
-    port: 23287
+    server: 43.198.96.56
+    port: 2569
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
+    skip-cert-verify: true
   -
     name: '🇺🇸 美国 05'
     type: "vless"
@@ -148,23 +148,23 @@ proxies:
       headers: { Host: ezdriv-server.help }
   -
     name: '🇯🇵 日本 01'
-    server: 54.92.111.249
-    port: 2762
+    server: 57.180.12.68
+    port: 20539
     type: "trojan"
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇯🇵 日本 02'
-    server: 52.195.215.231
-    port: 3423
+    server: 153.121.70.134
+    port: 400
     type: "trojan"
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇯🇵 日本 03'
-    server: 35.77.86.187
+    server: 160.16.130.21
     port: 3423
     type: "trojan"
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -182,24 +182,24 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇭🇰 香港 02'
-    server: 54.64.61.41
-    port: 3373
+    server: 43.206.192.192
+    port: 4856
     type: "trojan"
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
     skip-cert-verify: true
   -
     name: '🇭🇰 香港 03'
-    server: 43.199.159.115
-    port: 3292
+    server: 43.198.96.56
+    port: 2826
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇭🇰 香港 04'
-    server: 43.207.149.184
-    port: 26378
+    server: 43.198.108.86
+    port: 54548
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
@@ -265,7 +265,7 @@ proxies:
     udp: true
   -
     name: '🇸🇬 新加坡 01'
-    server: 160.16.81.84
+    server: 160.16.124.55
     port: 3901
     type: "trojan"
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -281,8 +281,8 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇸🇬 新加坡 03'
-    server: 13.192.163.115
-    port: 381
+    server: 43.198.96.56
+    port: 3127
     type: "trojan"
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
@@ -1725,7 +1725,7 @@ proxy-groups:
       - DIRECT
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -1872,7 +1872,7 @@ proxy-groups:
     proxies:
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -2019,7 +2019,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -2165,7 +2165,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -2311,7 +2311,7 @@ proxy-groups:
       - '🚀 节点选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -2457,7 +2457,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -2604,7 +2604,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -2770,7 +2770,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-16 01:52:20'
+      - '更新于：2026-02-16 06:25:30'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
